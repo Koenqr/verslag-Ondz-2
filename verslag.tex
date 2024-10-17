@@ -89,6 +89,17 @@ In \ref{fig:plot} heeft de fit de volgende coefficienten $a=1,165 \cdot 10^{11}\
 \section{Uitwerking \& discussie}
 De gemeten waarde van de specifieke lading van een elektron is $1,165 \cdot 10^{11} \mathrm{\frac{C}{kg}}$, dit is erg afwijkend van de theoretische waarde van $1,76 \cdot 10^{11} \mathrm{\frac{C}{kg}}$. Dit komt hoogst waarschijnlijk door een afwijkende veld sterkte van de berekende waarde en een kleine afwijking in de afstand tussen de sporten in.
 
+De onzekerheid van het magnetisch veld is de error propegatie van \ref{eq:magnetischveld} en resulteerd in het volgende:
+\begin{equation}
+	d_B=0.715 \sqrt{\frac{\mu_{0}^{2} n^{2} \left(I^{2} d_{R}^{2} + R^{2} d_{I}^{2}\right)}{R^{4}}} \to d_B=6.9184153415377 \cdot 10^{-6} \sqrt{0.0625 I^{2} + 1}
+	\label{eq:afwijkingMag}
+\end{equation}
+De onzekerheid van de specifieke lading is de error propegatie van \ref{eq:specifiekelading} en resulteerd in het volgende:
+\begin{equation}
+	d_em=30198133940.4878 \sqrt{\frac{1.91457883352097 \cdot 10^{-12} I^{2} U^{2} + 1.91457883352097 \cdot 10^{-14} I^{2} r^{2} + 7.65831533408387 \cdot 10^{-12} U^{2} r^{2} \cdot \left(0.0625 I^{2} + 1\right)}{I^{6} r^{6}}}
+	\label{eq:afwijkingEM}
+\end{equation}
+(fix this)
 
 \section{Conclusie}
 De conclusie van deze proef is dat de onderzoeksvraag niet beantwoord is, dit komt omdat de meting erg sensitief is voor afwijkingen in het B veld en dit niet direct te meten was met de gebruikte apparatuur, en dus niet mogelijk om hier voor te compenseren. 
